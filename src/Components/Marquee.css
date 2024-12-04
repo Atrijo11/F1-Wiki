@@ -1,0 +1,24 @@
+.marquee-container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.marquee-content {
+  display: flex;
+  animation: marquee 15s linear infinite;
+}
+
+.marquee-content img {
+  width: 187px; /* Assuming your images are fixed-width */
+  margin-right: 10px; /* Add some space between images if needed */
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

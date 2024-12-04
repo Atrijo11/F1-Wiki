@@ -1,0 +1,25 @@
+.marquee1-container {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+  
+  .marquee1-content {
+    display: flex;
+    animation: marquee-left-right 15s linear infinite; /* The key animation */
+  }
+  
+  .image-item {
+    width: 135px; /* Adjust width as needed */
+    margin-right: 10px; /* Optional: Add some space between images */
+  }
+  
+  @keyframes marquee-left-right {
+    0% {
+      transform: translateX(100%); /* Start offscreen from the right */
+    }
+    100% {
+      transform: translateX(-100%); /* Move offscreen to the left */
+    }
+  }
+  
