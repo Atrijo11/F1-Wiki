@@ -1,5 +1,9 @@
 # React + Vite
 
+Create a React Porject using Vite to get the node modules
+
+Also make sure to install Tailwind CSS for the same
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
